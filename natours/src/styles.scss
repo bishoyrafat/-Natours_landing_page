@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 body{
-  background-color: red;
+  font-family: 'Lato', sans-serif;
+}
+:root{
+  --main-color:#7ed56f
+  --sec-color:#55c57a
+  --light-color:#28b485
 }

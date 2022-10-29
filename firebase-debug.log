@@ -1,0 +1,8 @@
+[debug] [2022-10-29T12:42:21.879Z] ----------------------------------------------------------------------
+[debug] [2022-10-29T12:42:21.882Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bisho\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-10-29T12:42:21.883Z] CLI Version:   11.14.1
+[debug] [2022-10-29T12:42:21.883Z] Platform:      win32
+[debug] [2022-10-29T12:42:21.883Z] Node Version:  v14.18.0
+[debug] [2022-10-29T12:42:21.885Z] Time:          Sat Oct 29 2022 14:42:21 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-10-29T12:42:21.885Z] ----------------------------------------------------------------------
+[debug] 
