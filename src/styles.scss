@@ -4,11 +4,14 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+html{
+  font-size: 62.5%;
+}
 body{
   font-family: 'Lato', sans-serif;
 }
 :root{
-  --main-color:#7ed56f
-  --sec-color:#55c57a
-  --light-color:#28b485
+  $color-primary-light:#7ed56f;
+  $color-secondary-light:#55c57a;
+  $color-primary-dark:#28b485;
 }
