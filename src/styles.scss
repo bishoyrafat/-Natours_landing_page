@@ -1,17 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-html{
-  font-size: 62.5%;
-}
-body{
-  font-family: 'Lato', sans-serif;
-}
-:root{
-  $color-primary-light:#7ed56f;
-  $color-secondary-light:#55c57a;
-  $color-primary-dark:#28b485;
-}
+@import '/src/assets/style/base/base';
+@import '/src/assets/style/abstract/variables';
+
+
