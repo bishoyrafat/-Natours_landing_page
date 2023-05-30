@@ -1,0 +1,68 @@
+.section-about {
+  background-color: #f7f7f7;
+  padding: 20rem 0;
+  margin-top: -20vh;
+}
+
+.heading {
+  &-secondary {
+    display: inline-block;
+    font-size: 4rem;
+    background-image: linear-gradient(
+      45deg,
+      rgba(40, 180, 133, 0.658),
+      hsla(111, 55%, 64%, 0.692)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+
+    &:hover {
+      transform: skewX(-20deg) scale(1.1);
+    }
+  }
+
+  &-tritary {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.745);
+  }
+}
+.paragraph-text {
+  font-size: 1.2rem;
+  &:not(last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.composition {
+  position: relative;
+
+  &__image {
+    width: 55%;
+    box-shadow: 0rem rem 4rem rgba(0, 0, 0, 0.174);
+    position: absolute;
+  }
+  &__image:hover{
+    z-index: 10;
+    transform: scale(1.2);
+    border: 1rem solid hsla(111, 55%, 64%, 0.878);
+    padding: 1rem;
+  }
+
+
+
+}
+
+.image--p1{
+  top: 0;
+  left: -8rem;
+}
+.image--p2{
+  top: -4rem;
+  left: 14rem;
+}
+.image--p3{
+  top: 5rem;
+  left: 5rem;
+}
+
