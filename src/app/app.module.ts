@@ -5,16 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
+import { FeatureComponent } from './feature/feature.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    AboutComponent
+    AboutComponent,
+    FeatureComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

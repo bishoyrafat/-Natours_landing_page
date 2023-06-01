@@ -1,0 +1,29 @@
+@import "/src/assets/style/abstract/variables";
+.feature {
+  background-image: linear-gradient(
+      hsla(111, 55%, 64%, 0.692),
+      rgba(40, 180, 133, 0.658)
+    ),
+    url("../../assets/images/nat-4.jpg");
+  background-size: cover;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 8rem;
+  color: rgb($color-black, 0.7);
+  transform: skewY(-7deg);
+  margin-top: -9rem;
+
+  &-box {
+    background-color: $color-grey-light-1;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+    transform: skewY(7deg);
+    box-shadow: 0 2.5rem 4rem rgb($color-black, 0.2);
+  }
+
+  &-icon {
+    font-size: 8rem;
+    color: hsla(111, 55%, 64%, 0.692);
+  }
+}
