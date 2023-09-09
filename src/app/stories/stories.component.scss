@@ -1,0 +1,75 @@
+@import "../../assets/style/abstract/variables";
+
+h3 {
+  text-transform: uppercase;
+}
+.bg-video {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.15;
+  height: 100%;
+  width: 100%;
+
+  video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.story {
+  margin-top: 35rem;
+  font-size: 1.6rem;
+  position: relative;
+
+  &__card {
+    padding: 5rem;
+    width: 75%;
+    height: fit-content;
+    margin: 5rem auto;
+    background-color: rgb($color-grey-light-1, 0.2);
+    transform: skewX(-20deg);
+    box-shadow: 0 2.6rem 4rem rgb($color-black, 0.1);
+
+    &:hover .story__shape img {
+      filter: blur(6px);
+      transform: scale(1);
+    }
+    &:hover .story__caption {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__text {
+    shape-outside: circle(50% at 50% 50%);
+    transform: skewX(20deg);
+  }
+
+  &__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50%);
+    transform: translateX(-20px) skewX(20deg);
+    position: relative;
+
+    & img {
+      height: 100%;
+      transform: scale(1.4);
+      transition: all 0.3s;
+    }
+  }
+  &__caption {
+    position: absolute;
+    color: $color-white;
+    font-size: 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+}

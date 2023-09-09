@@ -1,9 +1,12 @@
 .row{
-  max-width: 114rem;
+  // max-width: 114rem;
   display: grid;
 }
 .col-1-of-2{
   grid-template-columns: 1fr 1fr;
+}
+.col-1-of-3{
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .col-1-of-4{
   grid-template-columns: 1fr 1fr  1fr 1fr;

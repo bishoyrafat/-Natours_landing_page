@@ -5,21 +5,7 @@
 }
 
 .heading {
-  &-secondary {
-    display: inline-block;
-    font-size: 4rem;
-    background-image: linear-gradient(
-      45deg,
-      rgba(40, 180, 133, 0.658),
-      hsla(111, 55%, 64%, 0.692)
-    );
-    -webkit-background-clip: text;
-    color: transparent;
 
-    &:hover {
-      transform: skewX(-20deg) scale(1.1);
-    }
-  }
 
   &-tritary {
     font-size: 1.6rem;

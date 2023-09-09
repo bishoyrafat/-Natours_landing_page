@@ -99,25 +99,7 @@ header {
     transform: scale(1.5);
   }
 
-  &--white {
-    font-weight: 600;
-    padding: 2rem 6rem;
-    border-radius: 10rem;
-    border: none;
-    text-transform: uppercase;
-    animation: moveToTop 1s ease-in 1s;
-  }
-  &--white:hover {
-    cursor: pointer;
-    transform: translateY(-0.3rem);
-    box-shadow: 0 1rem 0.5rem rgba(0, 0, 0, 0.205);
-    transition: 0.3s;
-  }
-  &--white:active {
-    cursor: pointer;
-    transform: translateY(-0.1rem);
-    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.205);
-  }
+
 }
 
 @keyframes moveToTop {
